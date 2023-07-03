@@ -47,13 +47,15 @@ $(document).ready(function () {
                 required: true,
                 email: true
             }
+            
         },
-        messages: {
+            messages: {
             email: {
                 required: 'O campo de email é obrigatório',
                 email: 'Insira um email válido'
             }
         }
+
     })
 
 })
