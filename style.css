@@ -1,0 +1,23 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+section, form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input {
+    padding: 7px;
+    margin-bottom: 6px;
+    width: fit-content;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
